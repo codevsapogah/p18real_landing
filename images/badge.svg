@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="#FF9AD5" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7
+7 3.134 7 7 7z"></path>
+  <path d="M12 15v7"></path>
+  <path d="M7 20h10"></path>
+  <text x="12" y="9" font-family="Arial" font-size="6" text-anchor="middle" fill="white" font-weight="bold">P18</text>
+</svg> 

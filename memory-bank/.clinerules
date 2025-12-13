@@ -1,0 +1,85 @@
+# P18 Schema Test Project Rules
+
+## Project Structure
+
+### React Version Structure
+- src/
+  - components/
+    - app/ - Global styles and shared components
+    - hero/ - Landing page hero section with phone mockup
+    - benefits/ - Benefits section with feature cards
+    - schemas/ - Schema explanation section
+    - pricing/ - Pricing plans section
+    - testimonials/ - User testimonials section
+    - header/ - Site header with navigation
+    - footer/ - Site footer with links
+  - assets/
+    - images/ - SVG icons and graphics
+
+## Component Patterns
+
+1. **Component Organization:**
+   - Each major section has its own directory under components/
+   - Components should be exported as default when they're the main component of their file
+   - Styled components should be declared before the React functional component
+
+2. **Styling Approach:**
+   - Use styled-components for all component styling
+   - Leverage CSS variables from GlobalStyles for consistency
+   - Create responsive variants using media queries within styled components
+   - Use SharedStyles.js for reusable component patterns
+
+3. **Animation Standards:**
+   - Use framer-motion for animations
+   - Import animation variants from SharedStyles
+   - Use motion.div and other motion components for animated elements
+   - Keep animations subtle and performant
+
+## Content Guidelines
+
+1. **Text Content:**
+   - Primary language: Kazakh
+   - Keep text concise and focused on benefits
+   - Use consistent terminology for schema-related concepts
+
+2. **Visual Elements:**
+   - Use SVG format for all icons and graphics
+   - Maintain consistent color scheme using CSS variables
+   - Optimize images for web performance
+
+## Code Conventions
+
+1. **React Practices:**
+   - Use functional components with hooks
+   - Keep components focused on a single responsibility
+   - Extract complex logic into custom hooks if needed
+   - Use prop destructuring for cleaner component signatures
+
+2. **Styling Conventions:**
+   - Name styled components semantically based on their purpose
+   - Order CSS properties consistently (layout → box model → typography → visual)
+   - Use props for conditional styling
+   - Keep media queries with their respective components
+
+3. **File Naming:**
+   - Component files: PascalCase.js (e.g., PhoneMockup.js)
+   - Utility/helper files: camelCase.js
+   - Test files: ComponentName.test.js
+
+## Browser Support
+
+- Support latest 2 versions of major browsers
+- Ensure responsive design works on devices down to 320px width
+- Progressive enhancement approach for features
+
+## Performance Considerations
+
+1. **Animation Performance:**
+   - Use hardware-accelerated properties (transform, opacity)
+   - Be cautious with animations on mobile devices
+   - Consider using the will-change CSS property for complex animations
+
+2. **Asset Loading:**
+   - Optimize SVGs for web use
+   - Consider lazy loading for below-the-fold content
+   - Minimize bundle size by avoiding unnecessary dependencies 

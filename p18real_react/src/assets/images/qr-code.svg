@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <rect width="150" height="150" fill="white"/>
+  <g transform="translate(10,10)">
+    <rect x="0" y="0" width="130" height="130" fill="#5856D6"/>
+    <text x="65" y="75" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">P18 TEST</text>
+  </g>
+</svg> 
